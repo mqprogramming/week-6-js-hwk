@@ -1,0 +1,29 @@
+body {
+  background-color: aquamarine;
+  font-family: "verdana";
+}
+
+h1, h2 {
+  font-family: "Monaco";
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+label {
+  font-weight: normal;
+}
+
+.game-list-item {
+  background-color: silver;
+  border: double;
+  width: 20%;
+  margin: 10px;
+}
+
+#main-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
